@@ -1,0 +1,129 @@
+body {
+
+    width: 100%;
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+nav {
+    background-color: #ff7506;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2rem 0;
+    margin-top: -4px;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: -8px;
+}
+
+form {
+    width: 100%;
+    max-width: 30rem;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+    color: white;
+    background: #323644;
+    border: 0.125rem solid transparent;
+    border-radius: 0.125rem;
+    transition: border-color 0.3s;
+    box-shadow: 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
+    border-color: #1d90f5;
+    box-shadow: 0 0 0 0.3125rem #26344a;
+
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #64868f;
+
+}
+
+textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+button {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #ff7506;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    background: #ff7506;
+
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+}
+
+.sucess {
+    color: greenyellow;
+
+}
+
+.error {
+    color: tomato;
+}
